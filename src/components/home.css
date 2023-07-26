@@ -1,0 +1,158 @@
+.banner{
+    height: 772px;
+    width: 100%;
+    background: linear-gradient(90deg, #001506 0%, rgba(0, 107, 56, 0.17)), url(../images/homepage/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   /*  position: absolute; */
+}
+.bannerTxt{
+    position: relative;
+    color:#ffff;
+    top:120px;
+    text-align: left;
+}
+#homeH1{
+    margin-bottom:20px;
+    margin-top: -7px;
+}
+#homeLead{
+    margin-bottom:60px;
+}
+
+/* home section 1 */
+.homeSection1{
+    height:auto;
+    width: 100%;
+    background:url(../images/homepage/homeSection1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.heritage{
+    position: relative;
+    top:80px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.rightTxt{
+    margin-top:60px;
+    width: 100%;
+    
+}
+.rightImg{
+    border-radius: 1.875rem;
+    margin-top: 55px;
+    width: 100%;
+}
+.left{
+    position: relative;
+    top:-170px;
+    left:21%;
+    display: flexbox;
+    flex-direction: column;
+}
+.heritageCard{
+    width: 20rem;
+    margin-bottom:30px;
+    border-radius: 1.75rem;
+    background: rgba(210, 240, 186, 0.94);
+    padding: 7%;
+    color: #4A4A4A;
+}
+.cardH1{
+    font-size: 1.363rem;
+    color: rgba(36, 58, 48, 0.94);
+}
+.cardImg{
+    width: 20%;
+}
+
+/* home section 2 */
+.homeSection2{
+    height:auto;
+    width: 100%;
+    background:url(../images/homepage/homeSection2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.sect2H2{
+    letter-spacing: -0.06rem;
+    word-spacing: -0.2rem;
+}
+.sectMargin{
+    padding-top: 45px;
+}
+.productCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:3%;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.pCard{
+    border-radius: 2rem;
+    background: rgba(255, 255, 255, 0.76);
+    padding: 9.5%;
+    
+}
+.pCardImg{
+    /* border-radius: 25.557rem; */
+    width: 60%;
+}
+.cardSubHead{
+    font-size: 1.8125rem;
+    color: #0F2A13;
+    font-weight: 600;
+    letter-spacing: -0.03625rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cardTxt{
+    text-align: center;
+    color: #4A4A4A;
+}
+#homeSect2btn{
+    margin-bottom: 70px;
+}
+/* home section 3 */
+.homeSection3{
+    height:982px;
+    width: 100%;
+    background:url(../images/homepage/homeSection3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+}
+.homesect3Form{
+    position: absolute;
+    width: 35%;
+    background: rgba(0, 0, 0, 0.70);
+    color: #ffff;
+    padding: 2%;
+    top: 7%;
+}
+.formTitle{
+    font-size: 2.3rem;
+}
+.formTxt{
+    margin: 18px auto;
+}
+.homesect3Form input{
+    width: 80%;
+    height: 40px;
+    margin: 18px auto;
+}
+.homesect3Form input::placeholder{
+    padding-left: 10%;
+}
+textarea{
+    display: inline-block;
+    margin-bottom: 12px;
+}
+textarea::placeholder  {
+    padding-left: 10%;
+    padding-top: 5%;
+}
