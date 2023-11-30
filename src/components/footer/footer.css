@@ -1,0 +1,140 @@
+section.footer{
+    background: #022D04;
+    color: #EEEEEE;
+    padding-top:60px;
+    padding-bottom:60px;
+}
+.footGrid{
+    display: grid;
+    grid-template-columns: 40% 45% 8%;
+    gap: 9%;
+}
+.part2,.part3{
+    margin-top: 28px;
+}
+.footLogo{
+    width: 50%;
+    margin-bottom: 40px;
+}
+.p1Txt{
+    font-size: 1.025rem;
+}
+
+.footSocials{
+    display: flex;
+}
+.fsSpan{
+    display: flex;
+    margin: auto 2%;
+}
+.fsSpan img{
+    width: 7%;
+    height: 18px;
+}
+.subscribe{
+    background: #003809;
+    display: block;
+    width: 100%;
+    text-align: justify;
+}
+.subscribe p{
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+.subscribe form {
+   padding: 8%;
+}
+.subscribe form input{
+   padding: 5% 5% 5% 5%;
+   background: #DEE2E9;
+   width: 100%;
+}
+#footSubscribe{
+    position: relative;
+    top: -3.23em;
+    left: 63%;
+    padding:0.458rem 1.738rem;
+}
+.mainSocials{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.mainImg{
+    
+    width: 35%;
+}
+#fb{
+    width: 25%;
+}
+.copy{
+    text-align: center;
+}
+
+@media screen and (min-width: 1600px) {
+    #footSubscribe{
+        top: -3.48em;
+        left: 67%;
+        padding:0.458rem 1.738rem;
+    }
+}
+@media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 992px) {
+    .footSocials{
+        flex-direction: column;
+    }
+    #footSubscribe{
+        top: -2.90em;
+        left: 55%;
+        padding:0.458rem 1.038rem;
+    }
+}
+@media screen and (max-width: 770px) {
+
+
+
+
+}
+@media screen and (max-width: 576px) {
+    .footGrid{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 9%;
+    }
+    .footSocials{
+        flex-direction: column;
+    }
+    .mainSocials{
+        flex-direction: row;
+        gap: 50px;
+    }
+    #footSubscribe{
+        top: -2.90em;
+        left: 60%;
+        padding:0.458rem 1.038rem;
+    }
+    .mainImg{
+    
+        display: none;
+    }
+    .fsSpan{
+        display: flex;
+        margin: auto 2%;
+    }
+    .fsSpan img{
+        width: 7%;
+        height: 18px;
+        padding-right:2% ;
+    }
+    #fb{
+        width: 25%;
+    }
+    hr{
+        margin-top: 60px !important;
+    }
+    .copy{
+        font-size: 0.6rem;
+    }
+}

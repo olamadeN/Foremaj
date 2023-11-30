@@ -1,0 +1,52 @@
+.contBanner{
+    background: linear-gradient(90deg, #001506 0.05%, rgba(0, 107, 56, 0.17) 99.94%), url(../images/contact/contactBg.png);
+    background-size: cover;
+}
+.contWhite{
+    height: 250px;
+}
+.contCard{
+    text-align: center;
+    top: -200px !important;
+
+}
+
+.contCardImg{
+    /* border-radius: 25.557rem; */
+/*     border: #001506 1px solid; */
+    margin: auto 33%;
+    width: auto;
+}
+#c1{
+    width: 40%;
+}
+.contCardTittle{
+    margin-top: 50px;
+}
+.others p{
+    font-size: 1.3125rem;
+    font-size: 600;
+    margin: 0 auto;
+}
+.others #address{
+    line-height: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    .pBannerTxt{
+        top:80px;
+       
+    }
+    #C01 .green{
+        height: auto;
+    }
+    .contCards{
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 0%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .contCards{
+        grid-template-columns: 1fr;
+    }
+}

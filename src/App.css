@@ -1,27 +1,33 @@
+body::-webkit-scrollbar{
+  scroll-behavior: smooth;
+  display: none;
+}
 h1{
   font-size: 3.2rem;
   line-height:58px;
-  letter-spacing: -0.05rem;
-  font-weight: 900;
+  letter-spacing: -0.05rem !important;
+  font-weight: 900 !important;
 }
 h2{
   font-size: 2.8rem;
-  font-weight: 700;
+  font-weight: 700 !important;
 }
 .subHeading{
   font-size: 1.2rem;
   line-height:60px;
   letter-spacing: -0.055rem;
-  font-weight: 200;
+  font-weight: 200 !important;
   text-transform: uppercase;
 }
 .section{
-  width:78%;
+  width:100%;
+  /* width:78%; */
   margin:auto auto;
- /*  overflow-y: hidden */;
+ 
 }
 .section2{
-  width:72%;
+  width:78% !important;
+/*   width:72%; */
   margin:auto auto;
   /* border: solid 2px black; */
  /*  overflow-y: hidden */;
@@ -31,7 +37,7 @@ p.body{
   line-height: 24px;
 }
 p.lead{
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: 600;
   line-height: 28px;
 }

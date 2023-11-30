@@ -1,7 +1,7 @@
 .banner{
     height: 772px;
     width: 100%;
-    background: linear-gradient(90deg, #001506 0%, rgba(0, 107, 56, 0.17)), url(../images/homepage/banner.jpg);
+    background: linear-gradient(90deg, #001506 0%, rgba(0, 107, 56, 0.17)), url(../images/homepage/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
    /*  position: absolute; */
@@ -15,6 +15,7 @@
 #homeH1{
     margin-bottom:20px;
     margin-top: -7px;
+
 }
 #homeLead{
     margin-bottom:60px;
@@ -27,6 +28,7 @@
     background:url(../images/homepage/homeSection1.png);
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 3%;
 }
 .heritage{
     position: relative;
@@ -53,12 +55,15 @@
     flex-direction: column;
 }
 .heritageCard{
-    width: 20rem;
-    margin-bottom:30px;
+    width: 79%;
+    margin-bottom:20px;
     border-radius: 1.75rem;
     background: rgba(210, 240, 186, 0.94);
-    padding: 7%;
+    padding: 5%;
     color: #4A4A4A;
+}
+.hCardTxt{
+    text-align: justify;
 }
 .cardH1{
     font-size: 1.363rem;
@@ -66,8 +71,18 @@
 }
 .cardImg{
     width: 20%;
+    margin-bottom: 15px;
 }
-
+#cardImg1{
+    width: 5.0181rem;
+}
+#cardImg2{
+    width: 4.7912rem;
+}
+#cardImg3{
+    width: 5.4156rem;
+    margin-bottom: 10px;
+}
 /* home section 2 */
 .homeSection2{
     height:auto;
@@ -108,6 +123,7 @@
     letter-spacing: -0.03625rem;
     margin-top: 10px;
     margin-bottom: 10px;
+    line-height: normal;
 }
 .cardTxt{
     text-align: center;
@@ -118,21 +134,23 @@
 }
 /* home section 3 */
 .homeSection3{
-    height:982px;
+    height: 637px;
     width: 100%;
     background:url(../images/homepage/homeSection3.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat:no-repeat;
     text-align: center;
     position: relative;
+    /* margin-bottom: -352.9px; */
+    /* border: #001506 2px solid; */
 }
 .homesect3Form{
     position: absolute;
-    width: 35%;
+    width: 40%;
     background: rgba(0, 0, 0, 0.70);
     color: #ffff;
-    padding: 2%;
-    top: 7%;
+    padding: 3%;
+    top: 55px;
 }
 .formTitle{
     font-size: 2.3rem;
@@ -141,8 +159,8 @@
     margin: 18px auto;
 }
 .homesect3Form input{
-    width: 80%;
-    height: 40px;
+    width: 100%;
+    height: 60px;
     margin: 18px auto;
 }
 .homesect3Form input::placeholder{
@@ -151,8 +169,142 @@
 textarea{
     display: inline-block;
     margin-bottom: 12px;
+    width: 100%;
 }
 textarea::placeholder  {
     padding-left: 10%;
     padding-top: 5%;
+}
+#formSend{
+    padding: 0.35rem 3rem;
+    position: inherit;
+    bottom:60px;
+    right: 15%;
+}
+@media screen and (min-width: 1600px) {
+    .homeSection3{
+        background-size: cover;
+    }
+    .homesect3Form{
+        top: 70px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .homeSection3{
+        height: 480px;
+    }
+    .homesect3Form{
+        width: 90%;
+        padding: 3%;
+        top: 8%;
+    }
+    .homesect3Form input{
+        margin-top: 3px;
+        height: 40px;
+    }
+    textarea{
+        margin-bottom: 0;
+        height: 90px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .homeSection3{
+         height: 380px;
+        /* border: #001506 2px solid; */
+    }
+    .banner{
+        height: 572px;
+       
+    }
+    .homesect3Form{
+        top: 5%;
+    }
+    .homesect3Form{
+        top: 20px;
+        left: 5%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .homeSection3{
+        height: 360px;
+        background-repeat: repeat;
+    }
+    .productCards{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    
+    .homesect3Form{
+        top: 5px;
+        
+    }
+}
+@media screen and (max-width: 576px) {
+    .bannerTxt{
+        padding: 5%;
+        top:90px;
+    }
+    .subHeading{
+        line-height: normal;
+    }
+    #homeH1{
+        margin-bottom:20px;
+        margin-top: 10px;
+        
+    }
+    #homeLead{
+        margin-bottom: 30px;
+    }
+      
+    .homeSection1{
+        padding-bottom: 30% !important;
+        padding: 3%;
+    }
+    .rightImg{
+        
+        margin-top: 27px;
+        margin-bottom: 25px;
+       
+    }
+    .left{
+        top:20px;
+        left:0%;
+    }
+    .heritage{
+        grid-template-columns: 1fr;
+    }
+    .heritageCard{
+        width: 100%;
+        
+    }
+    .productCards{
+        grid-template-columns: 1fr;
+        
+    }
+/*     .homeSection2{
+        margin-top: 70px;
+    } */
+    #homeSect2btn{
+        margin-top: 70px;
+    }
+    .homeSection3{
+        height: 400px;
+        background-repeat: repeat;
+    }
+    .homesect3Form{
+        width: 94%;
+        top: 30px;
+        padding: 7%;
+        left: 2.7%;
+    }
+    .formTitle{
+        font-size: 1.5rem;
+    }
+    .formTxt{
+        font-size: 0.9rem !important;
+    }
+    textarea{
+        height: 90px;
+    }
 }

@@ -1,0 +1,19 @@
+.navLogo{
+    width: 60%;
+}
+.navStyle{
+    margin-left: 40%;
+    float: right !important;
+    width: 100%;
+}
+.navbar-nav .nav-link{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: auto 3%;
+}
+/* .navbar-nav .nav-link:active, .nav-link:hover{
+    color:#E8503A;
+}
+.navbar-nav .nav-link:hover{
+    color:#E8503A;
+} */
